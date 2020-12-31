@@ -6,7 +6,7 @@ module.exports = async function(deployer) {
   await deployer.deploy(Token);
   const token = await Token.deployed()
   //Deploy ethSwap
-  await deployer.deploy(ethSwap);
+  await deployer.deploy(ethSwap, token.address);
   const ethswap = await ethSwap.deployed()
 
   //transfer all tokens to ethSwap (1 Million)

@@ -2,7 +2,7 @@
   "name": "ethSwap",
   "version": "0.1.0",
   "description": "An Instant ERC-20 Cryptocurrency Exchange",
-  "author": "salikk.md@gmail.com",
+  "author": "salik.md@yahoo.com",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
